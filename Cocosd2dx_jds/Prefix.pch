@@ -1,0 +1,75 @@
+//
+// Prefix header for all source files of the 'Test' target in the 'Test' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#define FlatUIColor_turquoise       [UIColor colorWithRed:26.0/255.0 green:188.0/255.0 blue:156.0/255.0 alpha:1]
+
+#define FlatUIColor_emerald         [UIColor colorWithRed:46.0/255.0 green:204.0/255.0 blue:113.0/255.0 alpha:1]
+
+#define FlatUIColor_peterRiver      [UIColor colorWithRed:52.0/255.0 green:152.0/255.0 blue:219.0/255.0 alpha:1]
+
+#define FlatUIColor_amethyst        [UIColor colorWithRed:155.0/255.0 green:89.0/255.0 blue:182.0/255.0 alpha:1]
+
+#define FlatUIColor_wetAsphalt      [UIColor colorWithRed:52.0/255.0 green:73.0/255.0 blue:94.0/255.0 alpha:1]
+
+#define FlatUIColor_greenSea        [UIColor colorWithRed:22.0/255.0 green:160.0/255.0 blue:133.0/255.0 alpha:1]
+
+#define FlatUIColor_nephritis       [UIColor colorWithRed:39.0/255.0 green:174.0/255.0 blue:96.0/255.0 alpha:1]
+
+#define FlatUIColor_belizeHole      [UIColor colorWithRed:41.0/255.0 green:128.0/255.0 blue:185.0/255.0 alpha:1]
+
+#define FlatUIColor_wistreia        [UIColor colorWithRed:142.0/255.0 green:68.0/255.0 blue:173.0/255.0 alpha:1]
+
+#define FlatUIColor_midnightBlue    [UIColor colorWithRed:44.0/255.0 green:62.0/255.0 blue:80.0/255.0 alpha:1]
+
+#define FlatUIColor_sunFlower       [UIColor colorWithRed:241.0/255.0 green:196.0/255.0 blue:15.0/255.0 alpha:1]
+
+#define FlatUIColor_carrot          [UIColor colorWithRed:230.0/255.0 green:126.0/255.0 blue:34.0/255.0 alpha:1]
+
+#define FlatUIColor_alizarin        [UIColor colorWithRed:231.0/255.0 green:76.0/255.0 blue:60.0/255.0 alpha:1]
+
+#define FlatUIColor_clouds          [UIColor colorWithRed:236.0/255.0 green:240.0/255.0 blue:241.0/255.0 alpha:1]
+
+#define FlatUIColor_concrete        [UIColor colorWithRed:149.0/255.0 green:165.0/255.0 blue:166.0/255.0 alpha:1]
+
+#define FlatUIColor_orange          [UIColor colorWithRed:243.0/255.0 green:156.0/255.0 blue:18.0/255.0 alpha:1]
+
+#define FlatUIColor_pumpkin         [UIColor colorWithRed:211.0/255.0 green:84.0/255.0 blue:0/255.0 alpha:1]
+
+#define FlatUIColor_pomegranate     [UIColor colorWithRed:192.0/255.0 green:57.0/255.0 blue:43.0/255.0 alpha:1]
+
+#define FlatUIColor_silver          [UIColor colorWithRed:189.0/255.0 green:195.0/255.0 blue:199.0/255.0 alpha:1]
+
+#define FlatUIColor_asbestos        [UIColor colorWithRed:127.0/255.0 green:140.0/255.0 blue:141.0/255.0 alpha:1]
+
+#define FlatUIColor_redColor        [UIColor colorWithRed:236/255.0 green:249.0/255.0 blue:120.0/255.0 alpha:1]
+
+
+
+#define ccc3_FlatUIColor_turquoise  ccc3(26,188,156)
+
+#define ccc3_FlatUIColor_emerald    ccc3(46,204,113)
+
+#define ccc3_FlatUIColor_peterRiver ccc3(52,152,219)
+
+#define ccc3_FlatUIColor_amethyst   ccc3(155,89,182)   
+
+#define ccc3_FlatUIColor_wetAsphalt ccc3(52,73,94)
+
+#define ccc3_FlatUIColor_greenSea   ccc3(22,160,133) 
+
+#define ccc3_FlatUIColor_nephritis       ccc3(39,174,96)
+
+#define ccc3_FlatUIColor_belizeHole      ccc3(41,128,185)
+
